@@ -221,7 +221,7 @@ ARTIKEL
     background-image: url("./img/hotel-indonesia.jpg");
 }
 #semanggi .parallax {
-    background-image: url("./img/jembatan-semanggi.png");
+    background-image: url("./img/jembatan-semanggi.jpg");
 }
 #selamat-datang .parallax {
     background-image: url("./img/eko-herwantoro-monumen-selamat-datang.jpg");
@@ -239,7 +239,7 @@ ARTIKEL
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
-    padding: 1em 0;
+    padding: 1.5em 0;
 }
 #artikel .descr .content {
     width: 50%;
@@ -286,7 +286,7 @@ REFERENSI
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
-    padding: 1em 0;
+    padding: 1.5em 0;
 }
 #referensi .descr .content {
     width: 50%;
@@ -334,7 +334,7 @@ TENTANG KAMI
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
-    padding: 1em 0;
+    padding: 1.5em 0;
 }
 #tentang-kami .descr .content {
     width: 50%;
