@@ -486,7 +486,7 @@ FOOTER
         background-attachment: scroll;
       }
       #hero .btn-get-started {
-        font-size: 14px;
+        font-size: 16px;
         padding: 12px 20px;
       }
 
@@ -499,7 +499,7 @@ FOOTER
       }
       #artikel .descr .content, #referensi .descr .content {
         width: 90%;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 0;
       }
       #artikel .parallax {
