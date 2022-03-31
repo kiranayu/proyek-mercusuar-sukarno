@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'ChirpExtended';
-    src: url('ChirpExtended-Heavy.woff2') format('woff2'),
-        url('ChirpExtended-Heavy.woff') format('woff');
+    src: url('./fonts/ChirpExtended-Heavy.woff2') format('woff2'),
+        url('./fonts/ChirpExtended-Heavy.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
   }
 @font-face {
     font-family: 'Chirp';
-    src: url('Chirp-Heavy.woff2') format('woff2'),
-        url('Chirp-Heavy.woff') format('woff');
+    src: url('./fonts/Chirp-Heavy.woff2') format('woff2'),
+        url('./fonts/Chirp-Heavy.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -394,13 +394,13 @@ FOOTER
 @MEDIA >= 1024px
 -------------------------------*/
 @media (min-width: 1024px) {
-    #hero {
-      background-attachment: fixed;
-    }
+  #hero {
+    background-attachment: fixed;
+  }
 
-    #artikel .parallax {
-        background-attachment: fixed;
-    }
+  #artikel .parallax, #referensi .parallax, #tentang-kami .parallax {
+      background-attachment: fixed;
+  }
 }
 
 
@@ -482,7 +482,7 @@ FOOTER
         font-size: 30px;
         line-height: 36px;
       }
-      #hero .parallax {
+      #hero .parallax, #referensi .parallax, #tentang-kami .parallax {
         background-attachment: scroll;
       }
       #hero .btn-get-started {
